@@ -8,7 +8,7 @@ use version;
 use Filter::Simple;
 
 
-our $VERSION = '0.00_01';
+our $VERSION = '0.00_02';
 $VERSION = qv($VERSION);
 
 

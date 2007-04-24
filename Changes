@@ -1,6 +1,7 @@
 Revision history for Perl extension Filter::Log4perl.
 
-0.00_01  Wed Apr 18 10:09:01 2007
-	- original version; created by h2xs 1.23 with options
-		-A -B -X -b 5.8.1 -c -e -k Filter::Log4perl
+0.00_02  Wed Apr 24 09:50:47 2007
+	- Added build-requirements and requirements.
 
+0.00_01  Wed Apr 18 10:09:01 2007
+	- First release.
