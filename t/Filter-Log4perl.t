@@ -136,3 +136,12 @@ my $var = [ 1, 2, 3 ];
 # <debug> \$var: $var
 --- expected
 $var: [1, 2, 3]
+
+
+=== case: ARRAY
+--- input source
+$_ = 'dummy';
+@_ = qw/a b c/;
+# <debug> $_[1]
+--- expected
+"b"

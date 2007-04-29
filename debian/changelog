@@ -1,0 +1,12 @@
+libfilter-log4perl-perl (0.00-03-1) unstable; urgency=low
+
+  * New upstream patches.
+
+ -- FUJIMURA Yuki <ykfj@users.sourceforge.jp>  Wed, 25 Apr 2007 21:44:51 +0900
+
+libfilter-log4perl-perl (0.00-02-1) unstable; urgency=low
+
+  * Initial Release.
+
+ -- FUJIMURA Yuki <ykfj@users.sourceforge.jp>  Wed, 25 Apr 2007 01:14:26 +0900
+

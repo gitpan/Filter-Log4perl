@@ -1,0 +1,15 @@
+Source: libfilter-log4perl-perl
+Section: perl
+Priority: optional
+Build-Depends: debhelper (>= 5.0.0)
+Build-Depends-Indep: perl (>= 5.8.8-7)
+Maintainer: FUJIMURA Yuki <ykfj@users.sourceforge.jp>
+Standards-Version: 3.7.2
+
+Package: libfilter-log4perl-perl
+Architecture: all
+Depends: ${perl:Depends}, ${misc:Depends}, 
+Description: no extra codes logging (same as Log::Log4perl qw/:resurrect/)
+ no extra codes logging (same as Log::Log4perl qw/:resurrect/)
+ .
+ This description was automagically extracted from the module by dh-make-perl.

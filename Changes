@@ -1,7 +1,13 @@
 Revision history for Perl extension Filter::Log4perl.
 
+0.00_03  Wed Apr 25 20:58:53 2007
+	- Added a workaround for Test::Base version less than 0.52.
+	- Fixed no-ref ARRAY/HASH variable regular expressions.
+
+
 0.00_02  Wed Apr 24 09:50:47 2007
 	- Added build-requirements and requirements.
+
 
 0.00_01  Wed Apr 18 10:09:01 2007
 	- First release.

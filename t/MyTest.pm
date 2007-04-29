@@ -6,6 +6,20 @@ use warnings;
 use Test::Base -Base;
 
 
+BEGIN
+{
+    # WORKAROUND: for Test::Base version less than 0.52.
+    if ($Test::Base::VERSION < 0.52) {
+        my @test_more_exports = qw/use_ok/;
+
+        require Test::More;
+        Test::More->import(import => \@test_more_exports);
+
+        push(our @EXPORT, @test_more_exports);
+    }
+}
+
+
 1;
 
 

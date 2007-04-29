@@ -8,7 +8,7 @@ use version;
 use Filter::Simple;
 
 
-our $VERSION = '0.00_02';
+our $VERSION = '0.00_03';
 $VERSION = qv($VERSION);
 
 
@@ -54,8 +54,8 @@ our $_var_re = qr/
         # $var{...}, $var[...], $var->{...}, $var->[...]
         (?:
             \-\>
-        )
-        $RE{balanced}{-parens=>'{}[]'}
+        )?
+        $RE{balanced}{-parens=>'[]{}'}
     )?
 /x;
 
